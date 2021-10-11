@@ -74,7 +74,7 @@ int main()
 	//선택한 카드가 보여지는 곳
 	auto comshow= Object::create("image/빈칸.jpg", scene, x[0]+10, 600);
 	comshow->setScale(1.1f);
-	auto usershow = Object::create("image/빈칸.jpg", scene, x[3]+10, 600);
+	auto usershow = Object::create("image/빈칸.jpg", scene, x[3], 600);
 	usershow->setScale(1.1f);
 
 	//타이머로 점수판생성
@@ -223,6 +223,7 @@ int main()
 		return true;
 		});
 
+	//불필요한 옵션 제거
 	setGameOption(GameOption::GAME_OPTION_INVENTORY_BUTTON, false);
 	setGameOption(GameOption::GAME_OPTION_MESSAGE_BOX_BUTTON, false);
 
