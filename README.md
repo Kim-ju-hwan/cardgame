@@ -20,4 +20,4 @@ J<Q<K<A순으로 숫자가 큰 것이며, 큰 숫자가 승리한다.
 타이머는 스코어 보드로 활용된다. 컴퓨터점수는 분으로, 플레이어의 점수는 초로 표현된다.
 
 5개의 카드를 모두 사용하면 최종결과가 나타난다.
-![게임화면](https://user-images.githubusercontent.com/90310676/136730247-d74ee753-6b10-4335-b01f-f347329eafd3.PNG)
+![게임화면예시](https://user-images.githubusercontent.com/90310676/137590464-1124f586-d092-45c5-989d-5cd71ed9b19c.PNG)
