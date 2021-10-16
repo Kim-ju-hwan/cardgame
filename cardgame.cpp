@@ -227,6 +227,13 @@ int main()
 	setGameOption(GameOption::GAME_OPTION_INVENTORY_BUTTON, false);
 	setGameOption(GameOption::GAME_OPTION_MESSAGE_BOX_BUTTON, false);
 
+	//종료버튼 생성
+	auto endbutton = Object::create("image/endgame.png", scene, 850, 1000);
+	endbutton->setScale(0.7f);
+	endbutton->setOnMouseCallback([&](ObjectPtr object, int x, int y, MouseAction action)->bool {
+		endGame();
+		return true;
+		});
 	
 	showMessage("카드를 선택하세요!!");
 	startGame(scene);
